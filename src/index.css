@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  /* --font-unbounded: var(--font-unbounded); */
+  --font-unbounded: Unbounded, "sans-serif";
+  --font-montserrat: Montserrat, "sans-serif";
+  --font-roboto: var(--font-roboto);
+  --color-main: oklch(0.2077 0.0398 265.75);
+  --color-secondary: oklch(0.4622 0.3063 264.18);
+  --color-background: oklch(0.9842 0.0034 247.86);
+  --color-accent: oklch(0.7107 0.0351 256.79);
+}
