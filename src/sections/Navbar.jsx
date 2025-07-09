@@ -20,7 +20,7 @@ const Navbar = () => {
         </div>
 
         {/* Desktop menu */}
-        <div className="hidden md:flex md:items-center md:justify-around md:font-medium md:gap-x-3 lg:gap-x-10">
+        <div className="hidden lg:flex lg:items-center lg:justify-around lg:font-medium lg:gap-x-3 xl:gap-x-10">
           {navMenus.map((item, i) => (
             <div
               key={i}
@@ -31,12 +31,12 @@ const Navbar = () => {
             </div>
           ))}
         </div>
-        <button className="hidden md:block text-secondary w-52 h-14 font-bold rounded-full border-2 border-secondary py-4 px-8 cursor-pointer hover:bg-secondary hover:text-background transition duration-300 ease-in-out">
+        <button className="hidden lg:block text-secondary w-52 h-14 font-bold rounded-full border-2 border-secondary py-4 px-8 cursor-pointer hover:bg-secondary hover:text-background transition duration-300 ease-in-out">
           (987)-749-5403
         </button>
 
         {/* Mobile menu button */}
-        <Button className="w-fit md:hidden z-50 " onClick={handleOpen}>
+        <Button className="size-fit p-4 lg:hidden z-50 " onClick={handleOpen}>
           {isOpen ? (
             <FaTimes className="size-4" />
           ) : (
