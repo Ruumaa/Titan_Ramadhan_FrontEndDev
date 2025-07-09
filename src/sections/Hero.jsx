@@ -2,6 +2,7 @@ import { CiMail } from 'react-icons/ci';
 import Button from '../components/Button';
 import BaseLayout from '../components/layouts/BaseLayout';
 import Navbar from './Navbar';
+import { IoMdArrowUp } from 'react-icons/io';
 
 const Hero = () => {
   return (
@@ -31,12 +32,10 @@ const Hero = () => {
               </Button>
               <Button
                 // onClick={() => {}}
-                className="bg-secondary font-bold lg:!pr-2 lg:!pl-5 lg:text-sm md:text-sm lg:hover:text-sm hover:text-secondary hover:bg-background hover:border-secondary hover:border-2 transition duration-300 ease-in-out flex items-center gap-x-5 w-fit h-14"
+                className="bg-secondary font-bold lg:!pr-2 lg:!pl-5 lg:text-sm md:text-sm lg:hover:text-sm hover:text-secondary hover:bg-white hover:border-secondary hover:border-2 border-2 border-white transition duration-300 ease-in-out flex items-center gap-x-5 w-fit h-14 uppercase group"
               >
-                GET STARTED{' '}
-                <span className="size-9 bg-white rounded-full flex items-center justify-center">
-                  <img src="/icons/arrow.svg" alt="icon" className="size-4" />
-                </span>
+                Get Started{' '}
+                <IoMdArrowUp className="size-6 rotate-45 mr-3 group-hover:rotate-90 duration-300" />
               </Button>
             </div>
           </div>
