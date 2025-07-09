@@ -4,10 +4,8 @@
 @import "tailwindcss";
 
 @theme {
-  /* --font-unbounded: var(--font-unbounded); */
   --font-unbounded: Unbounded, "sans-serif";
   --font-montserrat: Montserrat, "sans-serif";
-  --font-roboto: var(--font-roboto);
   --color-main: oklch(0.2077 0.0398 265.75);
   --color-secondary: oklch(0.4622 0.3063 264.18);
   --color-background: oklch(0.9842 0.0034 247.86);

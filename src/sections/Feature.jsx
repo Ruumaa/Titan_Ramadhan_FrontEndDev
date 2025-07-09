@@ -1,7 +1,5 @@
-import React from 'react';
-
 const Feature = () => {
-  return <div>Feature</div>;
+  return <div className="h-screen">Feature</div>;
 };
 
 export default Feature;
