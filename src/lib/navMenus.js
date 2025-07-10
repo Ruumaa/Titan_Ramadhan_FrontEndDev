@@ -5,7 +5,7 @@ export const navMenus = [
   },
   {
     title: 'SERVICES',
-    href: '#features',
+    href: '#feature',
   },
   {
     title: 'CONCTACT US',

@@ -3,6 +3,7 @@ import Button from '../components/Button';
 import BaseLayout from '../components/layouts/BaseLayout';
 import Navbar from './Navbar';
 import { IoMdArrowUp } from 'react-icons/io';
+import { handleNavigation } from '../lib/navMenus';
 
 const Hero = () => {
   return (
@@ -23,15 +24,12 @@ const Hero = () => {
               Guiding Your Success Journey Through Expertise and Innovation
             </p>
             <div className="flex flex-col gap-y-4 md:gap-y-0 md:flex-row gap-x-2.5 mt-8 md:mt-12 md:mx-auto lg:mx-0">
-              <Button
-                // onClick={() => {}}
-                className="bg-white text-[#64748B] font-medium text-xs w-xs flex items-center gap-x-1.5 "
-              >
+              <Button className="bg-white text-[#64748B] font-medium text-xs w-xs flex items-center gap-x-1.5 cursor-default">
                 <CiMail className="size-6 text-gray-600" />
                 Enter your email to get started
               </Button>
               <Button
-                // onClick={() => {}}
+                onClick={() => handleNavigation('#contact')}
                 className="bg-secondary font-bold lg:!pr-2 lg:!pl-5 lg:text-sm md:text-sm lg:hover:text-sm hover:text-secondary hover:bg-white hover:border-secondary hover:border-2 transition duration-300 ease-in-out flex items-center gap-x-5 w-fit h-14 uppercase group"
               >
                 Get Started{' '}

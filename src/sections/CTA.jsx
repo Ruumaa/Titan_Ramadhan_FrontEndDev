@@ -11,9 +11,9 @@ const CTA = () => {
     <div className="h-fit relative bg-main text-white" id="contact">
       <div className="w-full h-16 rounded-b-[4rem] bg-background" />
       <BaseLayout>
-        <div className="h-fit grid grid-cols-1 gap-y-10 md:grid-cols-2 md:gap-x-8 xl:gap-x-8 py-20">
+        <div className="h-fit grid grid-cols-1 gap-y-10 md:grid-cols-2 md:gap-x-8 xl:gap-x-8 py-20 md:py-44">
           {/* cols 1 */}
-          <div className="">
+          <div>
             {/* title */}
             <PiArrowDownRightThin className="size-10 md:hidden" />
             <h2 className=" font-unbounded text-4xl  md:text-[2rem] lg:text-4xl xl:text-5xl uppercase pr-6 leading-12">

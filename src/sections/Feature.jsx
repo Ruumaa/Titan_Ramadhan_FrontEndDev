@@ -3,6 +3,7 @@ import { featuresProps } from '../lib/featuresProps.js';
 import FeatureContainer from '../components/FeatureContainer.jsx';
 import Button from '../components/Button.jsx';
 import { IoMdArrowUp } from 'react-icons/io';
+import { handleNavigation } from '../lib/navMenus.js';
 
 const Feature = () => {
   return (
@@ -29,7 +30,7 @@ const Feature = () => {
                   </div>
                   <div className="flex flex-col md:flex-row items-center mt-6 gap-y-2 md:gap-x-6">
                     <Button
-                      // onClick={() => {}}
+                      onClick={() => handleNavigation('#contact')}
                       className="bg-secondary font-bold lg:!pr-2 lg:!pl-5 lg:text-sm md:text-sm lg:hover:text-sm hover:text-secondary hover:bg-white hover:border-secondary hover:border-2 border-2 border-white transition duration-300 ease-in-out flex items-center gap-x-5 w-fit h-14 uppercase group"
                     >
                       Schedule a free call{' '}
