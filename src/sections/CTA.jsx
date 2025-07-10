@@ -3,7 +3,7 @@ import BaseLayout from '../components/layouts/BaseLayout';
 import Button from '../components/Button';
 import { CiMail } from 'react-icons/ci';
 import { IoMdArrowUp } from 'react-icons/io';
-import SocialButton from '../components/Socialbutton';
+import SocialButton from '../components/SocialButton';
 import { socialsProps } from '../lib/socialsProps';
 import {
   AnimateOnScroll,
