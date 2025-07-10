@@ -32,7 +32,7 @@ const Hero = () => {
               </Button>
               <Button
                 // onClick={() => {}}
-                className="bg-secondary font-bold lg:!pr-2 lg:!pl-5 lg:text-sm md:text-sm lg:hover:text-sm hover:text-secondary hover:bg-white hover:border-secondary hover:border-2 border-2 border-white transition duration-300 ease-in-out flex items-center gap-x-5 w-fit h-14 uppercase group"
+                className="bg-secondary font-bold lg:!pr-2 lg:!pl-5 lg:text-sm md:text-sm lg:hover:text-sm hover:text-secondary hover:bg-white hover:border-secondary hover:border-2 transition duration-300 ease-in-out flex items-center gap-x-5 w-fit h-14 uppercase group"
               >
                 Get Started{' '}
                 <IoMdArrowUp className="size-6 rotate-45 mr-3 group-hover:rotate-90 duration-300" />

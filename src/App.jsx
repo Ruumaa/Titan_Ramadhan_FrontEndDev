@@ -1,5 +1,7 @@
 import Layout from './components/layouts/Layout';
+import CTA from './sections/CTA';
 import Feature from './sections/Feature';
+import Footer from './sections/Footer';
 import Hero from './sections/Hero';
 
 function App() {
@@ -7,6 +9,8 @@ function App() {
     <Layout>
       <Hero />
       <Feature />
+      <CTA />
+      <Footer />
     </Layout>
   );
 }

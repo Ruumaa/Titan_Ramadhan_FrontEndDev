@@ -24,7 +24,7 @@ const Feature = () => {
             <div className="bg-secondary">
               <BaseLayout>
                 <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-x-20 py-11 ">
-                  <div className="font-unbounded text-4xl">
+                  <div className="font-unbounded text-4xl sm:text-center md:text-left">
                     Free consultation
                   </div>
                   <div className="flex flex-col md:flex-row items-center mt-6 gap-y-2 md:gap-x-6">
