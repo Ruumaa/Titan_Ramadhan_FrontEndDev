@@ -53,12 +53,10 @@ const CTA = () => {
                 className="flex flex-col gap-y-4 xl:gap-y-0 xl:flex-row gap-x-2.5 mt-4 md:mx-auto lg:mx-0"
               >
                 <StaggerItem>
-                  <HoverScale scale={1.02}>
-                    <Button className="bg-white text-[#64748B] font-medium text-xs w-full xl:w-xs flex items-center gap-x-1.5">
-                      <CiMail className="size-6 text-gray-600" />
-                      Enter your email to get started
-                    </Button>
-                  </HoverScale>
+                  <Button className="bg-white text-[#64748B] font-medium text-xs w-full xl:w-xs flex items-center gap-x-1.5 cursor-default">
+                    <CiMail className="size-6 text-gray-600" />
+                    Enter your email to get started
+                  </Button>
                 </StaggerItem>
 
                 <StaggerItem>
