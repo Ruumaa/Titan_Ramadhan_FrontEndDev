@@ -1,6 +1,6 @@
 # Slerate Sales Boost
 
-A modern, responsive landing page for **Slerate Sales Boost** - a fictional sales optimization platform designed to help businesses accelerate their revenue growth through data-driven insights and automated sales processes.
+A modern, responsive landing page for **Slerate Sales Boost** - a fictional sales optimization platform designed to help businesses accelerate their revenue growth through data-driven insights.
 
 ## 🛠️ Built With
 
@@ -15,7 +15,7 @@ A modern, responsive landing page for **Slerate Sales Boost** - a fictional sale
 Before you begin, ensure you have the following installed:
 
 - **Node.js** (version 16.0 or higher)
-- **npm** or **yarn** package manager
+- **npm**
 
 ## 🔧 Installation
 
@@ -32,22 +32,10 @@ Before you begin, ensure you have the following installed:
    npm install
    ```
 
-   or
-
-   ```bash
-   yarn install
-   ```
-
 3. **Start the development server**
 
    ```bash
    npm run dev
-   ```
-
-   or
-
-   ```bash
-   yarn dev
    ```
 
 4. **Open your browser**
